@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2em;
+            color: #2c3e50;
+        }
+
+        #introduction {
+            max-width: 1150px;
+            padding: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+
+        .container {
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px;
+            padding: 20px;
+        }
+        .outcome-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .outcome-card:hover {
+            transform: scale(1.05);
+        }
+        .outcome-card h2 {
+            font-size: 1.2em;
+            color: #2980b9;
+            margin-bottom: 10px;
+        }
+        .outcome-card p {
+            font-size: 1em;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+        .outcome-card a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #3498db;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .outcome-card a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Environmental Biology Portfolio</h1>
+    
+
+    <!-- a brief overview of the format you are using. For example: let the reader know that each page is a different section, or that there are three slides for each section, or a different video for each section, etc. This is a roadmap so the portfolio format makes sense. You can substitute this with a Table of Contents instead, if you prefer.
+
+    a brief description of how the portfolio demonstrates your mastery of course material.
+
+    a brief description of how you may use your portfolio into the future. -->
+    <p id="introduction">Hello, Welcome to my biology 101 portfolio website! Please click on any of the 9 "view outcome" buttons to look into each section, there will be a back button to this homepage found at the bottom of each one. Within each outcome, you will find an overview of the outcome, what I did to master the topic, and 2-3 projects, drawings, or quiz questions and answers. Additionally below each of the pictures there is an additional description specific to each item. In the future I hope this website can be proudly added to my larger CS portfolio I will be working on.</p>
+
+    <div class="container">
+        <div class="outcome-card">
+            <h2>Science Concepts</h2>
+            <p>Characteristics & Themes of Science Knowledge</p>
+	        <img src="./images/Science_Concepts.jpeg" />
+            <a href="scienceConcepts.html">View Outcome</a>
+        </div>
+        <div class="outcome-card">
+            <h2>Science Skills</h2>
+            <p>Discovering the Natural World</p>
+	        <img src="./images/Science_Skills.jpeg" />
+            <a href="scienceSkills.html">View Outcome	</a>
+        </div>
+        <div class="outcome-card">
+            <h2>Science Connections</h2>
+            <p>Society and the Scientific Enterprise</p>
+	        <img src="./images/Science_Connections.jpeg" />
+            <a href="scienceConnections.html">View Outcome</a>
+
+        </div>
+        <div class="outcome-card">
+            <h2>General Biology Concepts</h2>
+            <p>Describing and Explaining Life</p>
+            <img src="./images/Biology_Concepts.jpg" />
+            <a href="biologyConcepts.html">View Outcome</a>
+
+        </div>
+        <div class="outcome-card">
+            <h2>General Biology Skills</h2>
+            <p>Researching Organisms and Environments</p>
+            <img src="./images/Biology_Skills.jpg" />
+            <a href="biologySkills.html">View Outcome</a>
+
+        </div>
+        <div class="outcome-card">
+            <h2>General Biology Connections</h2>
+            <p>Nature in Everyday Life</p>
+            <img src="./images/Biology_Connections.jpg" />
+            <a href="biologyConnections.html">View Outcome</a>
+
+        </div>
+        <div class="outcome-card">
+            <h2>Environmental Biology Concepts</h2>
+            <p>Current Understandings of Biodiversity, Ecology, & Conservation Biology</p>
+            <img src="./images/Environmental_Concepts.jpg" />
+            <a href="enviroConcepts.html">View Outcome</a>
+
+        </div>
+        <div class="outcome-card">
+            <h2>Environmental Biology Skills</h2>
+            <p>Effective Field Work & Organism Handling</p>
+            <img src="./images/Environmental_Skills.jpg" />
+            <a href="enviroSkills.html">View Outcome</a>
+
+        </div>
+        <div class="outcome-card">
+            <h2>Environmental Biology Connections</h2>
+            <p>Making Media About the Environment</p>
+            <img src="./images/Environmental_Connections.jpg" />
+            <a href="enviroConnections.html">View Outcome</a>
+
+        </div>
+    </div>
+
+</body>
+</html>
