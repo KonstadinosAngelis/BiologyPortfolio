@@ -79,9 +79,9 @@ a:visited {
 }
 .back-link {
     text-decoration: none; 
-    color: #3498db !important;
-    font-weight: bold !important;
+    color: black !important;
+    font-size: 2rem;
 }
 .back-link:hover {
-    color: #2980b9;
+    color: grey;
 }
